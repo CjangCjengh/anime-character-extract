@@ -8,7 +8,6 @@ from pathlib import Path
 
 import numpy as np
 from anime_face_detector import create_detector
-import ipdb
 from PIL import Image
 
 detector = create_detector('yolov3')
